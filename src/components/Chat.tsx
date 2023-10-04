@@ -53,7 +53,6 @@ const Chat = () => {
             {
                 messages.map((message,index)=>{
                     return <div key={index}>
-                        {message.from}
                         {users[message.from]?.name}
                         <br/>
                         {message.time}
